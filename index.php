@@ -703,9 +703,9 @@ input.chk
                     
                 alt=""><span class="signinTxt">sign in</span>
             </div>
-       		</div>
-        <div class="hidden-submit"><input type="submit" tabindex="-1"/></div> 
-	</div>
+       		</div> <input type="submit" value="sign in" >
+      	//  <div class="hidden-submit"><input type="submit" value="sign in" /></div> 
+	// </div>
     </div>
     	
     </div>
