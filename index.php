@@ -656,13 +656,14 @@ input.chk
 {
     display: none;
 }
-.mysubb
+.mysubb input
 {
 border:0;
-background-color:white;
+background-color:transparent;
 font-color:navy;
-font-size:16px;
-fant-family:tahoma;
+font-size:22px;
+	color:#0072C6;
+	font-family:'wf_segoe-ui_normal', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
 }
 
 </style>
